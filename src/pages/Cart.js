@@ -46,9 +46,8 @@ function Cart() {
     // Insert transaction data
     const body = JSON.stringify(form);
     const response = await API.patch("/transaction", body, config);
-    await API.patch("/cart", body, config);
     const token = response.data.data.token;
-
+    
     window.snap.pay(token, {
       onSuccess: function (result) {
         console.log(result);
@@ -65,7 +64,8 @@ function Cart() {
         alert("you closed the popup without finishing the payment");
       },
     });
-
+    
+    await API.patch("/cart", body, config);
   });
   //
 
