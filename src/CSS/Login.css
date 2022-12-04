@@ -1,0 +1,38 @@
+.modal h1 {
+   color: red;
+   margin: 30px;
+  }
+
+  .modal form {
+    width: 90%;
+    margin: 30px;
+  }
+
+  .modal .form-control{
+    border-color: red;
+    background-color: rgb(255, 245, 233);
+  }
+
+  .modal button{
+    width: 100%;
+  }
+
+  .modal p{
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+
+  .modal p button{
+    text-decoration: none;
+    color: black;
+  }
+
+  .modal p span{
+    font-weight: bolder;
+  }
+
+  
+  
+
+  

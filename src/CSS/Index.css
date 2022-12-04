@@ -1,0 +1,648 @@
+.navbar{
+    background-color: white;
+    height: 90px;
+}
+
+.navbar button{
+    display: inline;
+    justify-content: space-between;
+    width: 100px;
+  
+}
+
+.jumbo{
+position: absolute;
+width: 1072px;
+height: 400px;
+left: 184px;
+top: 181px;
+}
+
+.letsOrder{
+position: absolute;
+width: 250px;
+height: 49px;
+left: 196px;
+top: 619px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 49px;
+color: #BD0707;
+
+}
+
+.LetsOrder{
+    position: absolute;
+    top: 700px;
+    left: 196px;
+}
+
+.LetsOrder .card{
+    background-color: #F7DADA;;
+}
+
+.LetsOrder .card-title{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #BD0707;
+}
+
+.LetsOrder .card-text{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #974A4A;
+    text-align: left;
+}
+
+.jumboContainer {
+    position: relative;
+    margin: 30px auto 20px;
+    width: 1072px;
+    height: 400px;
+}
+
+.jumboRect {
+    width: 958px;
+    height: 400px;
+}
+
+.jumboImg {
+    position: absolute;
+    left: 620px;
+    top: 40px;
+}
+
+.jumboTitle {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 65px;
+    color: white;
+}
+
+.jumboSubTitle {
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 175px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.jumboDescription {
+    position: absolute;
+    width: 469px;
+    height: 125px;
+    left: 50px;
+    top: 230px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Order{
+    position: relative;
+    margin: 30px auto 20px;
+    width: 1072px;
+    height: 50px;
+    color: #BD0707;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.popover{
+
+    width: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.card-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.coffee{
+    
+    width: 436px;
+    height: 555px;
+    left: 195px;
+    top: 172px;
+
+}
+
+.Topping{
+  
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.topimg{
+ 
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47px;
+}
+
+.cardtopping{
+
+    width: 190px;
+    justify-items: center;
+    border: unset;
+}
+
+.titletopping{
+    font-size: medium;
+}
+
+.titleProduct{
+    width: 501px;
+    height: 66px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 66px;
+    color: #BD0707;
+}
+
+.priceProduct {
+    width: 110px;
+    height: 33px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #974A4A;
+
+}
+
+.T{
+    margin-bottom: 30px;
+    width: 77px;
+    height: 33px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #974A4A;
+}
+
+.Total{
+    width: 750px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    color: #974A4A;
+}
+
+.AddCart{
+    margin-top: 30px;
+    width: 100% !important;
+    background: #BD0707;
+    border-radius: 5px;
+    color: white;
+}
+/* profile */
+.previewPhoto{
+    display: flex;
+    width: 360px;
+    height: 50px;
+    border: 2px solid #BD0707;
+    background-color: #E0C8C840;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: black   ;
+    margin-bottom: 40px;
+}
+
+.profileContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.profileContainer h1{
+    margin-bottom: 40px;
+
+}
+
+.profileLeft{
+    margin-left: 10px;
+}
+
+.profileLeft h1{
+    margin-bottom: 20px;
+    color: #BD0707;
+    font-weight: 600;
+}
+
+.profileRight h1{
+    color: #613D2B;
+    font-weight: 600;
+}
+
+
+.biodata{
+    display: flex;
+    flex-direction: row;
+}
+
+.biodata img{
+    width: 241px;
+    height: 281px;
+    border-radius: 4px;
+}
+
+.biodata ul li{
+    list-style: none;
+}
+
+.biodataTitle{
+    font-size: 24px;
+    color: #613D2B;
+    font-weight: 700;
+}
+
+.biodataContent{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.btnProfile{
+    width: 240px;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 3px solid #BD0707;
+    color: #fff;
+    background-color: #BD0707;
+}
+
+
+/* profileCard */
+
+.profileCard{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    background-color: #F6DADA;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 20px 30px 0px 30px;
+}
+
+.contentCardLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.mapContent{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+
+.contentCardLeft ul li{
+    list-style: none;
+}
+
+.contentCardLeft img{
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.profileCardTitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: #BD0707;
+    margin-top: -2px;
+}
+
+.profileCardDate{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #BD0707;
+    font-weight: 500;
+}
+.profileCardDate strong{
+    font-weight: 700;
+}
+
+.profileCardToping strong{
+    color: #974A4A;
+}
+
+.profileCardToping{
+    font-size: 14px;
+    color: #BD0707;
+    margin-bottom: 7px;
+}
+
+.profileCardPrice{
+    font-size: 14px;
+    color: #974A4A;
+}
+
+
+.contentCardRight img{
+    display: block ;
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.contentCardRight{
+    justify-content: center;
+    text-align: center;
+}
+
+.Otw span {
+    margin-top: 20px;
+    display: block;
+    background: #00d0ff32;
+}
+
+.Pending span {
+    margin-top: 20px;
+    display: block;
+    background: #d1c00ba5;
+}
+
+.Cancel span {
+    margin-top: 20px;
+    display: block;
+    background: #bd07075f;
+}
+
+.Success span {
+    margin-top: 20px;
+    display: block;
+    background: #78a85a51;
+}
+
+.Otw span p{
+    color: #00d1ff;
+    font-weight: 600;
+}
+
+.Cancel span p{
+    color: #BD0707;
+    font-weight: 600;
+}
+
+.Success span p{
+    color: #78A85A;
+    font-weight: 600;
+}
+
+.profileSubTotal {
+    font-size: 15px;
+    font-weight: 700;
+    color: #974A4A;
+}
+
+.addProductContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.addProductLeft h1{
+    color: #BD0707;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.addProductLeft input{
+    display: block;
+    width: 700px;
+    height: 50px;
+    border: 2px solid #BD0707;
+    background-color: #E0C8C840;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.addProductLeft input:focus-visible{
+    outline: #BD0707;
+    background-color: #063fea1a;
+}
+
+.addProductLeft button{
+    width: 96%;
+    height: 40px;
+    margin-left: 14px;
+    background-color: #BD0707;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.addProductImage{
+    display: flex;
+    width: 700px;
+    height: 50px;
+    border: 2px solid #BD0707;
+    background-color: #E0C8C840;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #d29595   ;
+    margin-bottom: 40px;
+
+}
+
+.previewName{
+    display: flex;
+    width: 700px;
+    height: 50px;
+    border: 2px solid #BD0707;
+    background-color: #E0C8C840;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: black   ;
+    margin-bottom: 40px;
+}
+
+.addProductRight img{
+    margin-top: -10px;
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.authContainer{
+    padding: 30px 30px 10px 30px;
+}
+
+.authTitle{
+    color: #BD0707;
+    margin-bottom: 20px;
+}
+
+.inputAuth{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #BD0707;
+    background-color: rgba(224, 200, 200, 0.25);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.inputAuth:focus-visible{
+    padding-left: 10px;
+    outline: #BD0707;
+}
+
+.btnAuth{
+    width: 100%;
+    height: 45px;
+    background-color: #BD0707;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.addProfileImage{
+    display: flex;
+    width: 390px;
+    height: 50px;
+    border: 2px solid #BD0707;
+    background-color: #E0C8C840;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #d29595   ;
+    margin-bottom: 40px;
+
+}
+
+table{
+    width: 80% !important;
+    margin-left: 100px;
+    font-family: 'Inter', sans-serif !important;
+
+}
+
+th{
+    background-color: #E5E5E5 !important;
+    font-weight: 900;
+}
+
+th,td{
+    border: 1px solid #828282 !important;
+
+}
+
+.tableContainer{
+    margin-top: 50px;
+}
+
+.tableContainer h1{
+    margin-bottom: 40px;
+    color: #BD0707;
+    font-weight: 600;
+
+}
+
+.tablePrice{
+    color: #061E99;
+    font-weight: 600;
+}
+
+.tableSuccess{
+    color: #78A85A;
+    font-weight: 600;
+}
+.tableSuccess:hover{
+    color: #78A85A;
+    font-weight: 600;
+}
+
+.tableWaiting{
+    color: #FF9900;
+    font-weight: 600;
+}
+
+.tableWaiting:hover{
+    color: #FF9900;
+    font-weight: 600;
+}
+
+.tableOtw{
+    color: #00D1FF;
+    font-weight: 600;
+}
+
+.tableOtw:hover{
+    color: #00D1FF;
+    font-weight: 600;
+}
+
+.tableCancel{
+    color: #E83939;
+    font-weight: 600;
+}
+
+.tableCancel:hover{
+    color: #E83939;
+    font-weight: 600;
+}
+
+
+
+
+/* profileCard */
+
+/* /profile */
+
+
+
+
+
+
+
